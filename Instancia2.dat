@@ -1,0 +1,30 @@
+/*********************************************
+ * OPL 12.6.0.0 Data
+ * Author: Felipe
+ * Creation Date: 11-03-2021 at 17:08:24
+ *********************************************/
+
+ SheetConnection sheet("MyData.xlsx");
+
+ // Lectura Hoja Gral
+diametros  	from SheetRead(sheet,"Gral!B1");
+patrones  	from SheetRead(sheet,"Gral!B2");
+productos  	from SheetRead(sheet,"Gral!B3");
+ 
+ // Lectura Hoja Matriz
+mat_diametro  	from SheetRead(sheet,"Matriz!A3:A162");
+mat_patron  	from SheetRead(sheet,"Matriz!B3:B162");
+mat_cantprod  	from SheetRead(sheet,"Matriz!C3:Y162");
+mat_perd 		from SheetRead(sheet,"Matriz!AB3:AB162");
+
+ // Lectura Hoja Dda
+dem_prod  	from SheetRead(sheet,"Dda!A2:W2");
+dem_cant  	from SheetRead(sheet,"Dda!A5:W5");
+dem_w	  	from SheetRead(sheet,"Dda!A6:W6");
+
+ // Lectura Hoja Disp
+disp_diametro  	from SheetRead(sheet,"Disp!A1:A14");
+disp_cantidad  	from SheetRead(sheet,"Disp!B1:B14");
+
+
+
