@@ -4,7 +4,7 @@ DOI: xxxxxx
 
 "*.dat" files import data from the "MyData.xlsx" file
 
-Description of the problem instances:
+Problem instances description
 Instancia1.dat: demand is concentrated on lower volume products
 Instancia2.dat: higher volume products concentrate demand
 Instancia3.dat: demand is concentrated on intermediate volume products
