@@ -1,5 +1,5 @@
 Model and data implemented in IBM.ILOG.CPLEX.Optimization.Studio.v12.6  
-Article: "Optimizing Cutting Log Operations in Softwood Sawmills: A Multi-Objective Approach Tailored for SMEs". 
+Article: "Optimizing Cutting Log Operations in Softwood Sawmills: A Multi-Objective Approach Tailored for SMEs"
 DOI: xxxxxx
 
 "*.dat" files import data from the "MyData.xlsx" file
