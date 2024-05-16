@@ -1,7 +1,6 @@
 /*********************************************
  * OPL 12.6.0.0 Data
- * Author: Felipe
- * Creation Date: 11-03-2021 at 17:08:24
+ * This problem instance imports data from the "MyData.xlsx" file
  *********************************************/
 
  SheetConnection sheet("MyData.xlsx");
